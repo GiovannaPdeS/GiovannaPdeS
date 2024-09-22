@@ -1,0 +1,38 @@
+*.tabela-brasileirao {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.2em;
+    border-radius: 5px 5px 0 0;
+    overflow-x: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+
+}
+
+.tabela-brasileirao thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+}
+
+
+.tabela-brasileirao th
+.tabela-brasileirao td {
+    padding: 12px 15px;
+}
+
+.tabela-brasileirao tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.tabela-brasileirao tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.tabela-brasileirao tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
