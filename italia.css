@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: rgb(4, 114, 9);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+    position: fixed;
+}
+.conteiner-logo{
+    display: flex;
+    align-items: center;
+}
+.logo-texto{
+    margin-left: 5px;
+    color: white;
+    align-items: center;
+    
+}
+.menu li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    margin: o 5px;
+}
+#dov{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    height: 350px;
+    background-color: #eb0505;
+}
+.footer h2{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+.footer h3{
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+.footer p{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: unset;
+    color: white;
+    margin-top: 20px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white;
+}
+.mapBox{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+}
+button{
+    width: 350px;
+    height: 40px;
+    margin-left: 25px;
+    border-radius: 10px;
+    background-color: rgb(7, 7, 129);
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    
+}
