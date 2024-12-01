@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: rgb(4, 114, 9);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+    position: fixed;
+}
+.conteiner-logo{
+    display: flex;
+    align-items: center;
+}
+.logo-texto{
+    margin-left: 5px;
+    color: white;
+    align-items: center;
+    
+}
+.menu li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    margin: o 5px;
+}
+#dov{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    height: 400px;
+    background-color: #eb0505;
+}
+.footer h2{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+.footer h3{
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+.footer p{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: unset;
+    color: white;
+    margin-top: 20px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white;
+}
+.mapBox{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+}
+button{
+    width: 350px;
+    height: 40px;
+    margin-left: 25px;
+    border-radius: 10px;
+    background-color: rgb(7, 7, 129);
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .modal-content {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  feedback-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  #feedback-status {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    background-color: hsl(253, 100%, 47%);
+  }
+  
