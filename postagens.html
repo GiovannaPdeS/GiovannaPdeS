@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>postagens</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="postagens-container">
+    <div class="postagem">Postagem 1</div>
+    <div class="postagem">Postagem 2</div>
+    <div class="postagem">Postagem 3</div>
+  </div>
+
+  <button onclick="abrirPopup()">Cadastrar-se no evento</button>
+
+  <div id="popup" class="popup-overlay">
+    <div class="popup-content">
+      <span class="fechar" onclick="fecharPopup()">&times;</span>
+      <h2>Cadastro no Evento</h2>
+      <p>Formulário ou instruções de cadastro aqui.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
